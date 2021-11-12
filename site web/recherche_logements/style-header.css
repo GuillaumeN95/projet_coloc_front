@@ -1,6 +1,8 @@
 
 
-header{  overflow: visible;}
+header{
+  overflow: visible;
+}
 
 .header-wrap{
 background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);/*linear-gradient(to right, lightgrey, lightpink);*/
@@ -8,6 +10,7 @@ height: 10px;
 width: 100%;
 position: fixed;
 top: 0px;
+z-index: 999;
 }
 
 .header-main-container {
@@ -16,7 +19,6 @@ top: 0px;
   position: fixed;
   top: 0px;
   background-color: red;
-  z-index: 9999;
   display: flex;
   justify-content: space-between;
   align-items: center;
